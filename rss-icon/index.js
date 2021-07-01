@@ -23,6 +23,9 @@ const draw = () => {
   ctx.stroke();
   ctx.lineTo(210, 217);
   ctx.stroke();
+  ctx.arcTo(210, 80, 80, 85, 120);
+  ctx.fill();
+  ctx.closePath();
 };
 
 draw();
